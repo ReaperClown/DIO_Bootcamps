@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ReaperClown"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-06-28 07:12:01 "/>
+        <attribute name="created" value="UmVhcGVyQ2xvd247REVTS1RPUC1IT0YySkxEOzIwMjEtMDYtMjg7IjA3OjAwOjI0ICI7MzM4Mw=="/>
+        <attribute name="edited" value="UmVhcGVyQ2xvd247REVTS1RPUC1IT0YySkxEOzIwMjEtMDYtMjg7IjA3OjEyOjAxICI7MjszNDkw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nota1, nota2, nota3, nota4, media, total" type="Real" array="False" size=""/>
+            <input variable="nota1"/>
+            <input variable="nota2"/>
+            <input variable="nota3"/>
+            <input variable="nota4"/>
+            <assign variable="media" expression="(nota1+nota2+nota3+nota4)/4"/>
+            <assign variable="total" expression="nota1+nota2+nota3+nota4"/>
+            <output expression="media" newline="True"/>
+            <output expression="total" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
