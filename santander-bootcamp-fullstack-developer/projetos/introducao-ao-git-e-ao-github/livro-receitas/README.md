@@ -6,5 +6,5 @@
 
 #### Receitas:
 
-- Lasanha à Bolonhesa
+- [Lasanha à Bolonhesa](receitas/lasanha.md)
 
