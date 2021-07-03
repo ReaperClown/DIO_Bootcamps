@@ -1,0 +1,17 @@
+Inicio-dia
+	Acordar
+	Levantar
+	UsarBanheiro
+	EncherGarrafa
+	EscovarDentes
+	Banho
+	PontoOnibus
+	CursoSENAC
+	PontoOnibus
+	VoltaCasa
+	Netflix
+	CursoNoite
+	Jantar
+	Deitar
+	Dormir
+Fim-dia
