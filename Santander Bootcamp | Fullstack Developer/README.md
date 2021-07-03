@@ -3,8 +3,8 @@
 <br>
 
 #### Roadmap
-✔️ Boas-vindas ao Bootcamp Santander Fullstack Developer
-✔️ Bem-vindo à DIO
-✔️ Lógica de programação essencial
-✔️ Introdução ao Git e ao GitHub
-🚧 Conceitos e melhores práticas com banco de dados PostgreSQL
+✔️ Boas-vindas ao Bootcamp Santander Fullstack Developer <br>
+✔️ Bem-vindo à DIO <br>
+✔️ Lógica de programação essencial <br>
+✔️ Introdução ao Git e ao GitHub <br>
+🚧 Conceitos e melhores práticas com banco de dados PostgreSQL <br>
