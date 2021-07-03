@@ -1,7 +1,6 @@
 # Listagem dos Bootcamps feitos na DIO.
 
 <br>
-<br>
 
 ## Concluídos
 <br>
