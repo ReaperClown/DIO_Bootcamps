@@ -1,0 +1,23 @@
+Inicio
+	Filho Vermelho sobe
+	Pai Vermelho sobe
+	Atravessa
+	Pai Vermelho desce
+	Atravessa
+	Filho Verde sobe
+	Atravessa
+	Filho Vermelho desce
+	Atravessa
+	Pai Verde sobe
+	Atravessa
+	Pai Verde desce
+	Atravessa
+	Filho Azul sobe
+	Atravessa
+	Filho Verde desce
+	Atravessa
+	Pai Azul sobe
+	Atravessa
+	Pai Azul desce
+	Filho Azul desce
+Fim
