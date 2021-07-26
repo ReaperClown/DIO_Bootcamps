@@ -1,10 +1,10 @@
-package one.innovation.digital.languagefeatures;
+package one.innovation.digital.jdbcbasico;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class LanguageFeaturesTests {
+class JdbcBasicoApplicationTests {
 
 	@Test
 	void contextLoads() {

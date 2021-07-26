@@ -1,13 +1,13 @@
-package one.innovation.digital.caracteristicasdalinguagem;
+package one.innovation.digital.languagefeatures;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CaracteristicasDaLinguagemApplication {
+public class LanguageFeatures {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CaracteristicasDaLinguagemApplication.class, args);
+		SpringApplication.run(LanguageFeatures.class, args);
 	}
 
 }

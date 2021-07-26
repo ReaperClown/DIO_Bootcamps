@@ -1,0 +1,6 @@
+{
+    "java.project.sourcePaths": [
+        "digital.innovation.one.utils",
+        "digital.innovation.one.core"
+    ]
+}
