@@ -1,6 +1,9 @@
 package com.spring.access.point.model;
 
-import javax.persistence.OneToMany;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.ManyToOne;
 
 import lombok.*;
 
@@ -10,9 +13,11 @@ import lombok.*;
 @NoArgsConstructor
 @EqualsAndHashCode
 @Builder
+@Entity
 public class Location {
+    @Id
     private long id;
-    @OneToMany
+    @ManyToOne
     private AccessLevel accessLevel;
     private String description;
 }

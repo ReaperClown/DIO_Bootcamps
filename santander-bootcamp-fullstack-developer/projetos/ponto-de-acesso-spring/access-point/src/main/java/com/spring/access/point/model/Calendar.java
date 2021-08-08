@@ -1,9 +1,10 @@
 package com.spring.access.point.model;
 
+import lombok.*;
+
 import javax.persistence.Entity;
 import javax.persistence.Id;
-
-import lombok.*;
+import java.time.LocalDateTime;
 
 @Getter
 @Setter
@@ -12,8 +13,10 @@ import lombok.*;
 @EqualsAndHashCode
 @Builder
 @Entity
-public class AccessLevel {
+public class Calendar {
     @Id
-    private long id;
+    private Long id;
+    private DateType dateType;
     private String description;
+    private LocalDateTime especialDate;
 }

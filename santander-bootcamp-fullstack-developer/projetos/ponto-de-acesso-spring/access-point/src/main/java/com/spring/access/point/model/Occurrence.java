@@ -12,8 +12,9 @@ import lombok.*;
 @EqualsAndHashCode
 @Builder
 @Entity
-public class AccessLevel {
+public class Occurrence {
     @Id
     private long id;
+    private String name;
     private String description;
 }
