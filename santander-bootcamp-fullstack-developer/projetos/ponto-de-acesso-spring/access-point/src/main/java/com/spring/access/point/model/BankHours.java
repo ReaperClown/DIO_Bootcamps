@@ -3,7 +3,6 @@ package com.spring.access.point.model;
 import java.io.Serializable;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
-
 import javax.persistence.Embeddable;
 import javax.persistence.EmbeddedId;
 import javax.persistence.Entity;
@@ -19,8 +18,8 @@ import lombok.*;
 @Entity
 public class BankHours {
 
-    @AllArgsConstructor
-    @NoArgsConstructor
+    @Getter
+    @Setter
     @EqualsAndHashCode
     @Embeddable
     public class BankHoursId implements Serializable {

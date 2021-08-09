@@ -2,8 +2,6 @@ package com.spring.access.point.model;
 
 import lombok.*;
 
-import java.beans.JavaBean;
-
 import javax.persistence.Entity;
 import javax.persistence.Id;
 

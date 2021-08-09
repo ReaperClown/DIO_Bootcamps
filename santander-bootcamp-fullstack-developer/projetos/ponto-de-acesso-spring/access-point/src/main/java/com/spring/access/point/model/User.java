@@ -1,13 +1,13 @@
 package com.spring.access.point.model;
 
+import lombok.*;
+
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
-
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
-
-import lombok.*;
+import org.hibernate.envers.Audited;
 
 @Getter
 @Setter
@@ -16,6 +16,7 @@ import lombok.*;
 @EqualsAndHashCode
 @Builder
 @Entity
+@Audited
 public class User {
     @Id
     private Long id;

@@ -8,6 +8,7 @@ import javax.persistence.Embeddable;
 import javax.persistence.EmbeddedId;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.ManyToOne;
 
 import lombok.*;
 
@@ -34,6 +35,8 @@ public class Movement {
     private LocalDateTime entryDate;
     private LocalDateTime leaveDate;
     private BigDecimal period;
+    @ManyToOne
     private Occurrence occurrence;
+    @ManyToOne
     private Calendar calendar;
 }
